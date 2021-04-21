@@ -33,7 +33,7 @@ body #navbar {
 
   body main #welcome-section {
     background-image: linear-gradient(rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.37)),
-      url("./Images/covid19.png");
+      url("./images/covid19.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
