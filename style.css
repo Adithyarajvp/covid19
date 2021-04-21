@@ -1,0 +1,105 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0%;
+    font-family: 'Oswald', sans-serif;
+}
+body #navbar {
+    top: 0;
+    width: 100%;
+    position: fixed;
+  }
+  body #navbar ul {
+    margin: 0%;
+    color: rgb(255, 0, 0);
+    display: flex;
+    background: #46d4ff;
+    border: 10px solid rgb(7, 44, 92); 
+    justify-content: flex-end;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    font-weight: bold;
+    margin-left: 0.1%;
+    margin-right: 0.1%;
+  } 
+  body #navbar ul li {
+    margin: 20px 20px;
+    list-style-type: none;
+    text-decoration: none;
+
+  }
+  
+
+  body main #welcome-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.37)),
+      url("./Images/covid19.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 00.1%;
+  }
+  body main #welcome-section .welcome-contents {
+    color: white;
+    margin: 0.1%;
+    min-height: 70vh;
+    padding-top: 30vh;
+    font-size: 1.3em;
+    text-align: center;
+  }
+  body main #welcome-section .welcome-contents h1 {
+    font-size: 3em;
+  } 
+  body main #welcome-section .welcome-contents div {
+    font-size: 1.5em;
+  }
+  body main #About-covid19 .about-covid19 div  {
+    color: rgb(0, 0, 0);
+    margin: 0.1%;
+    min-height: 70vh;
+    padding-top: 10vh;
+    font-size: 2em;
+    text-align: justify;
+      
+  }
+  body main #About-covid19 .about-covid19 div{
+    
+        width: fit-content;
+        height: fit-content;
+        padding: 5px;
+        border: 20px solid rgb(7, 44, 92);
+        margin: 0.2;
+      
+  }
+  body main #vaccine .vaccine div{
+    color: rgb(0, 0, 0);
+    margin: 0.1%;
+    min-height: 70vh;
+    padding-top: 10vh;
+    font-size: 2em;
+    text-align: justify;
+  }
+  body main #vaccine .vaccine div{
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    border: 20px solid rgb(7, 44, 92);
+    margin: 0.2;
+  }
+  body main #safety-measures .safety-measures{
+    color: rgb(0, 0, 0);
+    margin: 0.1%;
+    min-height: 70vh;
+    padding-top: 10vh;
+    font-size: 2em;
+    text-align: justify; 
+  }
+  body main #safety-measures .safety-measures{
+    width: auto;
+    height: fit-content;
+    padding: 5px;
+    border: 20px solid rgb(7, 44, 92);
+    margin: 0.2; 
+  }
+  
+  
